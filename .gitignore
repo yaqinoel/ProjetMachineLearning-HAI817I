@@ -1,0 +1,18 @@
+# 1. Environnement virtuel
+ml_venv/
+
+# 2. Cache d'exécution Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 3. Cache et métadonnées Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+.virtual_documents/
+
+# 4. Fichiers système et configuration d'éditeurs
+.DS_Store
+.vscode/
+.idea/
+*.swp
