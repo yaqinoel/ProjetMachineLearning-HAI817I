@@ -1,0 +1,16 @@
+# Traitement des données et calcul scientifique
+pandas
+numpy
+
+# Visualisation des données
+matplotlib
+seaborn
+plotly
+wordcloud
+
+# Apprentissage automatique (Machine Learning)
+scikit-learn
+imbalanced-learn
+
+# Traitement du langage naturel (NLP)
+nltk
