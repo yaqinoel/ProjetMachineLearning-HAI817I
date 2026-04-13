@@ -25,14 +25,17 @@ source ml_venv/bin/activate
 Une fois l'environnement activé (vous devriez voir `(ml_venv)` au début de votre ligne de commande), exécutez les commandes suivantes pour installer les bibliothèques requises :
 
 ```bash
-# Installer les dépendances du projet
+# 1. Installer les dépendances du projet
 pip install -r requirements.txt
 
 # Note : En cas d'erreur lors de l'installation, essayez de mettre à jour pip d'abord, puis réessayez :
 # python -m pip install --upgrade pip
 
-# Installer l'outil de noyau pour exécuter les Jupyter Notebooks
-pip install ipykernel
+# 2. Installer l'outil de noyau pour exécuter les Jupyter Notebooks et Git Hooks
+pip install ipykernel nbstripout
+
+# 3. [TRÈS IMPORTANT] Activer le nettoyage automatique pour Git
+nbstripout --install
 ```
 
 ## 3. Utiliser Jupyter (.ipynb) dans VS Code
